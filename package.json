@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-i18n-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "export": "nuxt-ts export",
+    "serve": "nuxt-ts serve",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.10",
+    "@nuxtjs/axios": "^5.11.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "nuxt": "^2.13.0",
+    "nuxt-i18n": "^6.13.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.3",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "vue-jest": "^3.0.4"
+  }
+}

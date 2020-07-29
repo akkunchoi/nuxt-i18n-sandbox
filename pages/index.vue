@@ -8,6 +8,7 @@
     <div>{{ $t('hello') }}</div>
     <div v-t="'hello'"></div>
     <Message />
+    <MessageLocale />
   </div>
 </template>
 
